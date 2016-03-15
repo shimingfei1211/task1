@@ -1,0 +1,107 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>百度前段技术学院任务十二</title>
+    <meta charset="utf-8">  
+    <style type="text/css">  
+        thead {background-color: black;color: white;text-indent: 14px;text-align: left;}  
+        tbody tr:nth-child(2n+4) {background-color: #cdcdcd;color: #121212;}  
+        tbody tr:nth-child(2n+5) {background-color: #fff;color: #121212;}
+        tbody tr:nth-child(1),tr:nth-child(2),tr:nth-child(3){color: #ea0e09;}
+        thead{text-align: left;text-indent: 0;}
+        tbody tr:nth-child(2){background-color: #cdcdcd;}
+        tbody{font-family: '微软雅黑'}
+        .input_1{width: 100px;margin-top: 80px;}
+        .input_1:focus{width: 200px;transition: 0.5s;margin-top: 80px;}
+        #radio1:checked~#kuai{left: 0;}
+        #radio2:checked~#kuai{left: -340px;}
+        #radio3:checked~#kuai{left: -640px;}
+        #anniulan {position: absolute;bottom: 0;right: 0;padding: 10px;}
+        #radio_all {position: relative;margin-top: 100px;width: 300px;height: 120px;overflow: hidden;}
+        #radio_all input{display: none;}
+        #kuai {position: absolute;left: 0;width: 900px;height: 120px;transition: 0.8s;}
+        .kuai_kuai {float: left;width: 300px;height: 120px;list-style-type: none;}
+        .anniu{padding: 10px;background-color: #fafafa;color: #aaa;font-weight: bold;font-family: '微软雅黑';opacity: 0.5}
+    </style>  
+</head>  
+<body>  
+   
+    <table id="table1">  
+        <thead>  
+            <tr>  
+                <th>排名</th>  
+                <th>网站</th>
+                <th>热度</th>  
+            </tr>  
+        </thead>  
+        <tbody>  
+            <tr>  
+                <td>1.</td>  
+                <td>百度前段技术学院</td>  
+                <td>13000</td>
+            </tr>  
+            <tr>  
+                <td>2.</td>  
+                <td>百度前段技术学院</td>  
+                <td>12000</td>
+            </tr>  
+            <tr>  
+                <td>3.</td>  
+                <td>百度前段技术学院</td>  
+                <td>11000</td>
+            </tr> 
+            <tr>  
+                <td>4.</td>  
+                <td>百度前段技术学院</td>  
+                <td>10000</td>
+            </tr>   
+            <tr>  
+                <td>5.</td>  
+                <td>百度前段技术学院</td>  
+                <td>9000</td>
+            </tr>   
+            <tr>  
+                <td>6.</td>  
+                <td>百度前段技术学院</td>  
+                <td>8000</td>
+            </tr>  
+            <tr>  
+                <td>7.</td>  
+                <td>百度前段技术学院</td>  
+                <td>7000</td>
+            </tr> 
+            <tr>  
+                <td>8.</td>  
+                <td>百度前段技术学院</td>  
+                <td>6000</td>
+            </tr>
+            <tr>  
+                <td>9.</td>  
+                <td>百度前段技术学院</td>  
+                <td>5000</td>
+            </tr>
+            <tr>  
+                <td>10.</td>  
+                <td>百度前段技术学院</td>  
+                <td>4000</td>
+            </tr>    
+        </tbody>  
+    </table>
+    <input class="input_1" type="text">
+    <div id="radio_all">
+        <input id="radio1" type="radio" name="slider"  checked="checked">
+        <input id="radio2" type="radio" name="slider">
+        <input id="radio3" type="radio" name="slider">
+        <ul id="kuai">
+            <li class="kuai_kuai" style="background-color: #008100"></li>
+            <li class="kuai_kuai" style="background-color: #0100fe"></li>
+            <li class="kuai_kuai" style="background-color: #008100"></li>
+        </ul>
+        <div id="anniulan">
+            <label class="anniu" for="radio1">1</label>
+            <label class="anniu" for="radio2">2</label>
+           <label class="anniu" for="radio3">3</label>
+        </div>
+    </div>
+</body>  
+</html> 
